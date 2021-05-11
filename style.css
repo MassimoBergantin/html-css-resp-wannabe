@@ -74,19 +74,23 @@ img {
 
 /* INIZIO ESERCIZIO  */
 
-@media screen and (max-width: 420px) {
-   #lezioni .row>.left,
-   #lezioni .row>.right {
-   background-color: darkkhaki;
+@media screen and (max-width: 768px) {
+  .container .row,
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+   background-color: rgb(201, 194, 116);
    width: 100%;
-  }
+   float: none;
+ }
 } 
 
-@media screen and (max-width: 420px) {
-   #steps .row>.left,
-   #steps .row>.central,
-   #steps .row>.right {
+@media screen and (max-width: 768px) {
+ #steps .row,
+ #steps .row>.left,
+ #steps .row>.central,
+ #steps .row>.right {
+   float: none;
    width: 100%;
    background-color: white;
-  }
+ }
 }
